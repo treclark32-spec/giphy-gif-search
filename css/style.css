@@ -1,1 +1,36 @@
-/* Add any custom CSS stylings you want here */
+
+body {
+  background-color: lightblue;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  color: darkblue;
+  font-weight: bold;
+}
+
+p {
+  font-size: 18px;
+}
+
+#search-input {
+  max-width: 500px;
+  margin: auto;
+}
+
+#fetch-button {
+  background-color: darkblue;
+  border: none;
+  padding: 12px 25px;
+}
+
+#fetch-button:hover {
+  background-color: royalblue;
+}
+
+#gif-container img {
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+  padding: 5px;
+}
